@@ -11,3 +11,16 @@ console.log("Prepare yourself for an epic journey!");
 
 const readline = require("readline-sync");
 
+// Get player name
+const playerName = readline.question("What's your name, adventure? ");
+console.log(`welcome, ${playerName}! Your adventure begins now.`);
+
+// Information about the player 
+const playerHealth = 100;
+const playerGold = 20;
+const currentLocation = "village";
+const gameRunning = true;
+
+let inventory = [];
+
+// Create variables for player stats
