@@ -10,3 +10,7 @@ console.log("Welcome to the Adventure Game!");
 console.log("Prepare yourself for an epic journey!");
 
 const readline = require("readline-sync");
+
+// Get player name
+const playerName = readline.question("What is your name, adventurer? ");
+console.log(`Welcome, ${playerName}! Your adventure begins now.`);
