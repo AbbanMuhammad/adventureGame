@@ -34,4 +34,4 @@ console.log(`Stamina: ${playerStats.stamina}`);
 console.log(`Level: ${playerStats.level}`);
 console.log(`Experience: ${playerStats.experience}`);
 console.log(`Gold: ${playerStats.gold}\n`);
-// Create variables for player stats
+
